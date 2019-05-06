@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="8dp"
+    android:layout_margin="8dp">
+
+    <!--Creation of overall look of searched results
+        Main design tile for each searched result-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="8dp"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--default image for each tile-->
+        <ImageView
+            android:src="@drawable/ic_image_black_24dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+
+        <!--design tile within the main tile to display the information pulled from database-->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <!--information pulled from database design: NAME
+            android:id="@+id/name"-->
+            <TextView
+                android:id="@+id/card_name"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:text="Eddy Lee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!--information pulled from database design: EMAIL
+            android:id="@+id/email"-->
+            <TextView
+                android:id="@+id/type"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:textStyle="italic"
+                android:text="eddy@gmail.com"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!--information pulled from database design: PHONE
+            android:id="@+id/phone"-->
+            <TextView
+                android:id="@+id/rarity"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:text="(123)456-7890"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!--information pulled from database design: ADDRESS
+            android:id="@+id/address"-->
+            <TextView
+                android:id="@+id/artist"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:textAllCaps="true"
+                android:textStyle="normal"
+                android:text="123 Seseme Street"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/button_collection"
+                android:layout_width="200dp"
+                android:layout_height="35dp"
+                android:text="Add to Collection"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

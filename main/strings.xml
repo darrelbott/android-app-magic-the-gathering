@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Magic The Gathering</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="create_account">text</string>
+    <string name="email">Enter Email</string>
+    <string name="password">Enter Password</string>
+    <string name="login">Login</string>
+    <string name="username">Enter Username</string>
+    <string name="register">Register</string>
+    <string name="back_to_login">Back to Login</string>
+</resources>
