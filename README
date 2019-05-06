@@ -1,6 +1,10 @@
 Magic The Gathering Application for Android
 
 This was a class assignment for Database Management.  Uses native SQLite database.
+.jks file is the Android application you can install onto your Android device.
+.db file is the SQLite database file used with all cards that the application uses.
+Open files to work on in Android Studio
+
 Implemented:
 1) Databases are created upon first time opening application
 2) User Login with invalid cases
