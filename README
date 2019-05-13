@@ -7,7 +7,7 @@ Open files to work on in Android Studio
 
 Implemented:
 1) Databases are created upon first time opening application
-2) User Login with invalid cases
+2) User Login/Register with invalid cases
 3) Search over 30k+ cards
 4) Search bar offers search suggestions
 5) Able to click card box to add to personal collection
